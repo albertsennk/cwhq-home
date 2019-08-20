@@ -1,12 +1,20 @@
 import React from 'react';
+import { Project } from './Project';
 
 export class PortfolioPage extends React.Component {
     render() {
         return (
-            <div style={{columnCount: 2}}>
-                <div id="quizApp">
-                    <h2>Quiz App</h2>
-                </div>
+            <div >
+                <Project name={'QuizApp'}/>
+                <Project />
+                <Project />
+                <Project />
+                <Project />
+                <Project />
+                <Project />
+                <Project />
+                <Project />
+                <Project />
             </div>
         );
     }
