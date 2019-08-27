@@ -33,6 +33,7 @@ export class AboutPage extends React.Component {
                     <li className="exp">User Interface Development</li>
                     <li className="exp">Mobile App Development</li>
                 </ul>
+                <h4>Created with <code>create-react-app</code>.</h4>
             </div>
         );
     }

@@ -4,9 +4,10 @@ import logo from "./logo.svg";
 import "./App.css";
 import { AboutPage } from "./About";
 import { PortfolioPage } from "./PortfolioPage";
+import { HomePage } from "./HomePage";
 
 function Index() {
-  return <h2>Home</h2>;
+  return <HomePage />;
 }
 
 function About() {
@@ -27,7 +28,7 @@ function App() {
             <li className="nav">
               <NavLink to="/">Home</NavLink>
             </li>
-            <li className="nav">
+            <li className="nav" >
               <NavLink to="/portfolio/">Portfolio</NavLink>
             </li>
             <li className="nav">

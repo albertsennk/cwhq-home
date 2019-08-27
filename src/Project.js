@@ -22,6 +22,7 @@ const imgStyles = {
     marginLeft: 'auto',
     marginRight: 'auto',
     marginTop: '1em',
+    borderRadius: '1em',
 }
 
 export class Project extends React.Component {
